@@ -31,6 +31,34 @@ h3 {
 	line-height: 30px;
 }
 
+#content-desktop {
+	/* display: block; */
+}
+#content-mobile {
+	display: none;
+}
+
+.margin-right {
+	margin-right: 75px;
+}
+
+.margin-btm {
+	margin-bottom: 52px;
+}
+
+.width-200 {
+	width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+	#content-desktop {
+		display: none;
+	}
+	#content-mobile {
+		display: block;
+	}
+}
+
 .txt-left {
 	text-align: left !important;
 }
@@ -164,9 +192,14 @@ a:hover {
 	background-size: cover;
 	background-position: bottom;
 }
+@media screen and (min-width: 768px) {
+	.section {
+		padding-bottom: 100px 0;
+	}
+}
 
 .section {
-	padding: 100px 0;
+	padding-top: 100px;
 }
 
 .section-title {
