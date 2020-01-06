@@ -46,8 +46,10 @@ h3 {
 	margin-bottom: 52px;
 }
 
-.align-center {
-	text-align: center;
+@media screen and (max-width: 768px) {
+	.align-center {
+		text-align: center;
+	}
 }
 
 .width-200 {
