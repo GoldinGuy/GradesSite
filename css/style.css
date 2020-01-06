@@ -46,6 +46,10 @@ h3 {
 	margin-bottom: 52px;
 }
 
+.align-center {
+	text-align: center;
+}
+
 .width-200 {
 	width: 300px;
 }
